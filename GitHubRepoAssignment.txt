@@ -1,0 +1,65 @@
+Microsoft Windows [Version 10.0.16299.192]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\crgal>cd dektop
+The system cannot find the path specified.
+
+C:\Users\crgal>cd desktop
+
+C:\Users\crgal\Desktop>cd dojoassignments
+
+C:\Users\crgal\Desktop\DojoAssignments>cd webfundamentals
+
+C:\Users\crgal\Desktop\DojoAssignments\WebFundamentals>cd git
+
+C:\Users\crgal\Desktop\DojoAssignments\WebFundamentals\Git>md GitHubRepoAssignment
+
+C:\Users\crgal\Desktop\DojoAssignments\WebFundamentals\Git>cd githubrepoassignment
+
+C:\Users\crgal\Desktop\DojoAssignments\WebFundamentals\Git\GitHubRepoAssignment>git init
+Initialized empty Git repository in C:/Users/crgal/Desktop/DojoAssignments/WebFundamentals/Git/GitHubRepoAssignment/.git/
+
+C:\Users\crgal\Desktop\DojoAssignments\WebFundamentals\Git\GitHubRepoAssignment>copy NUL readme.md
+        1 file(s) copied.
+
+C:\Users\crgal\Desktop\DojoAssignments\WebFundamentals\Git\GitHubRepoAssignment>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        readme.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\crgal\Desktop\DojoAssignments\WebFundamentals\Git\GitHubRepoAssignment>git add .
+
+C:\Users\crgal\Desktop\DojoAssignments\WebFundamentals\Git\GitHubRepoAssignment>git commit - m "created readme.md file"
+error: pathspec '-' did not match any file(s) known to git.
+error: pathspec 'm' did not match any file(s) known to git.
+error: pathspec 'created readme.md file' did not match any file(s) known to git.
+
+C:\Users\crgal\Desktop\DojoAssignments\WebFundamentals\Git\GitHubRepoAssignment>git commit -m "created readme.md file"
+[master (root-commit) a3e5a74] created readme.md file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 readme.md
+
+C:\Users\crgal\Desktop\DojoAssignments\WebFundamentals\Git\GitHubRepoAssignment>git remote add origin https://github.com/crgalloway/GitHubRepoAssignment.git
+
+C:\Users\crgal\Desktop\DojoAssignments\WebFundamentals\Git\GitHubRepoAssignment>git push -u origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 214 bytes | 107.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/crgalloway/GitHubRepoAssignment.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\Users\crgal\Desktop\DojoAssignments\WebFundamentals\Git\GitHubRepoAssignment>cd
+C:\Users\crgal\Desktop\DojoAssignments\WebFundamentals\Git\GitHubRepoAssignment
+
+C:\Users\crgal\Desktop\DojoAssignments\WebFundamentals\Git\GitHubRepoAssignment>copy NUL GitHubRepoAssignment.txt
+        1 file(s) copied.
+
+C:\Users\crgal\Desktop\DojoAssignments\WebFundamentals\Git\GitHubRepoAssignment>
